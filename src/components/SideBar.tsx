@@ -1,0 +1,17 @@
+import { Link } from "react-router-dom"
+import { ROUTES } from "../constants/router.constant"
+
+export function SideBar() {
+    return (
+        <>
+            <ul>
+                <li>
+                    <Link to={ROUTES.HOME}>Home</Link>
+                </li>
+                <li>
+                    <Link to={ROUTES.LOGIN}>Login</Link>
+                </li>
+            </ul>
+        </>
+    )
+}
