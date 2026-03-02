@@ -1,0 +1,25 @@
+.cardContainer {
+    background-color: var(--base-color);
+    border-radius: 20px;
+    padding: 20px 24px;
+
+    flex: 1;
+}
+
+.success {
+    background-color: var(--success-bg-color);
+    border: 1px solid var(--success-color);
+    color: var(--text-success-color);
+}
+
+.danger {
+    background-color: var(--danger-bg-color);
+    border: 1px solid var(--danger-color);
+    color: var(--text-danger-color);
+}
+
+.warning {
+    background-color: var(--warning-bg-color);
+    border: 1px solid var(--warning-color);
+    color: var(--text-warning-color);
+}

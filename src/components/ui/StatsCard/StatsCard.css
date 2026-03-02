@@ -1,0 +1,28 @@
+.cardIcon {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    color: var(--base-color);
+
+    padding: 10px;
+}
+
+.statsCardContainer .primary {
+    background-color: var(--primary-color);
+}
+
+.statsCardContainer .secondary {
+    background-color: var(--secondary-color);
+}
+
+.statsCardContainer .success {
+    background-color: var(--success-color);
+}
+
+.statsCardContainer .danger {
+    background-color: var(--danger-color);
+}
+
+.statsCardContainer .warning {
+    background-color: var(--warning-color);
+}
