@@ -1,10 +1,29 @@
 :root {
+  /* Colors */
   --primary-color: #6359E9;
-  --background-color: #EFEEFF;
-  --text-color: #333;
-  --text-muted-color: #9c9c9c;
-  --base-color: #fff;
   --secondary-color: #64CFF6;
+  --success-color: #02B15A;
+  --danger-color: #E74C3C;
+  --warning-color: #F39C12;
+
+  /* Background colors */
+  --base-color: #fff;
+  --background-color: #EFEEFF;
+  --success-bg-color: #E3FFE9;
+  --danger-bg-color: #FFE3E3;
+  --warning-bg-color: #FFF4E3;
+
+  /* Text colors */
+  --text-color: #333;
+  --text-success-color: #095B00;
+  --text-danger-color: #7A1B0C;
+  --text-warning-color: #7A5B00;
+
+  /* Muted colors */
+  --text-muted-color: #9c9c9c;
+  --success-muted-color: #89B492;
+  --danger-muted-color: #B48989;
+  --warning-muted-color: #B4B389;
 
   font-family: system-ui, sans-serif;
   line-height: 1.5;
