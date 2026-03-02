@@ -31,3 +31,25 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.avatarIcon {
+  border-radius: 1000px;
+}
+
+.accountText {
+  max-width: 160px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.accountMenu {
+  padding: 6px;
+  border-radius: 10px;
+
+  transition: background-color 0.3s;
+}
+
+.accountMenu:hover {
+  background-color: #f0f0f0;
+}
