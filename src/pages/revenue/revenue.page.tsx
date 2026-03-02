@@ -1,7 +1,13 @@
+import { Flex } from "@/components/ui/Flex";
+import { Header } from "@/components/ui/Header";
+
 export const Revenue = () => {
     return (
-        <div>
-            <h1>Receitaa</h1>
-        </div>
+        <Flex direction="column" gap={33}>
+            <Header
+                title="Receitas​"
+                subtitle="Gerencie e monitore suas fontes de renda de forma eficaz."
+            />
+        </Flex>
     );
 };

@@ -9,7 +9,7 @@ export const Dashboard = () => {
         <Flex direction="column" gap={33}>
             <Header
                 title="Bem-vindo, Amanda! 👋​"
-                subtitle="Saiba como está suas finanças aqui"
+                subtitle="Saiba como está suas finanças aqui."
             />
 
             <Flex justify="space-between" gap={24}>

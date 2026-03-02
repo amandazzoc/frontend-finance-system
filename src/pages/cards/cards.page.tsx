@@ -1,7 +1,13 @@
+import { Flex } from "@/components/ui/Flex";
+import { Header } from "@/components/ui/Header";
+
 export const Cards = () => {
     return (
-        <div>
-            <h1>Cards</h1>
-        </div>
+        <Flex direction="column" gap={33}>
+            <Header
+                title="Cartões"
+                subtitle="Gerencie limites, acompanhe gastos e visualize extratos."
+            />
+        </Flex>
     );
 };
