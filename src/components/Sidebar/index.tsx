@@ -1,5 +1,5 @@
 import { Flex } from "../ui/Flex";
-import "./Sidebar.module.css";
+import "./Sidebar.css";
 import { MenuList } from "./MenuList";
 import { AccountMenu } from "./AccountMenu";
 

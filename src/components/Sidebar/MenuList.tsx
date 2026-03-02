@@ -1,6 +1,6 @@
 import { MenuItem } from "./MenuItem";
 import { MENU_ITEMS } from "@/constants/sidebar.constant";
-import "./Sidebar.module.css"
+import "./Sidebar.css"
 
 export function MenuList() {
     return (
