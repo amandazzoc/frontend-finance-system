@@ -3,3 +3,31 @@ aside {
   background-color: var(--base-color);
   padding: 33px 28px;
 }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.navLink {
+  width: 100%;
+  display: flex;
+  gap: 14px;
+  padding: 12px 16px;
+  border-radius: 10px;
+
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.active {
+  background-color: var(--primary-color);
+  color: var(--base-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
