@@ -1,3 +1,4 @@
+import { AnalysisChart } from "@/components/Dashboard/AnalysisChart";
 import { HealthCard } from "@/components/Dashboard/HealthCard";
 import { Flex } from "@/components/ui/Flex";
 import { Header } from "@/components/ui/Header";
@@ -27,6 +28,10 @@ export const Dashboard = () => {
                 />
 
                 <HealthCard status="warning" value={85} />
+            </Flex>
+
+            <Flex>
+                <AnalysisChart />
             </Flex>
         </Flex>
     );

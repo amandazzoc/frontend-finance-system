@@ -23,7 +23,7 @@ export function Card({
         <Flex direction="column" className={`cardContainer ${variant} ${className}`}>
             <Flex justify="space-between">
                 {title && (
-                    <Text type="h2" size="2xl">
+                    <Text type="h2" size="2xl" weight="600">
                         {title}
                     </Text>
                 )}
